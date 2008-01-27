@@ -1,0 +1,58 @@
+SomeTags
+A Plugin for Movable Type
+
+Release 1.0
+September 12, 2003
+
+Copyright (c) 2003, Chad Everett
+dbd@cxliv.org, http://www.cxliv.org/jayseae/
+
+The program is licensed under the Open Software License version 2.0
+http://www.opensource.org/licenses/osl-2.0.php
+
+This Movable Type plugin allows you to use common MT tags to pull in data
+that you may want to repeat in more than one place.  As the standard MT
+distribution does not provide for any licenses other than Creative Commons, 
+I decided that more tags would be most helpful in moving me away from CC.
+This plugin is the result.
+
+
+Installation:
+
+To install, place the 'SomeTags.pl' file in your Movable Type "plugins"
+directory.  If you do not have a Movable Type plugins directory, create
+one, then put the 'SomeTags.pl' file in it.  Refer to the Movable Type
+documentation for more information regarding plugins.
+
+With all modules that you put on your server, make sure that they are
+executable.  Permissions of 755 ought to work fine.
+
+Tag information:
+
+  <$MTSTLicenseTitle$> - returns the title of your license
+  <$MTSTLicenseURL$> - returns the URL to the details of your license
+  <$MTSTLicenseVersion$> - returns the version number of your license
+
+These values are set inside the SomeTags.pl file.  The variables used for
+this operation are well documented.  If you can handle notepad, you can
+handle setting these tags.  Simply open the file with notepad, read the
+instructions, change the values (if necessary) and you're off.
+
+The values for these tags is currently set to the Open Software License,
+version 2.0, located at http://www.opensource.org/licenses/osl-2.0.php.  If
+you want to use these values, you don't need to edit the plugin.
+
+Here's how you use it:
+
+Simply place any (or all) of the above tags into your Movable Type template
+and rebuild the template.  No context is necessary, so you can place these
+tags anywhere on any template.
+
+
+Chad Everett
+September 12, 2003
+
+
+Changelog:
+1.0 - Initial release
+    - September 12, 2003
