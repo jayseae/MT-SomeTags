@@ -1,19 +1,22 @@
-# ---------------------------------------------------------------------------
-# SomeTags: Some Extra Functionality for Your Site
-# A Plugin for Movable Type
+# ===========================================================================
+# A Movable Type plugin to create some extra tags for your site.
+# Copyright 2003 Everitz Consulting <everitz.com>.
 #
-# Release 1.0
-# September 12, 2003
+# This program is free software:  You may redistribute it and/or modify it
+# it under the terms of the Artistic License version 2 as published by the
+# Open Source Initiative.
 #
-# Copyright 2003, Chad Everett (dbd@cxliv.org, http://www.cxliv.org/jayseae/)
+# This program is distributed in the hope that it will be useful but does
+# NOT INCLUDE ANY WARRANTY; Without even the implied warranty of FITNESS
+# FOR A PARTICULAR PURPOSE.
 #
-# The program is licensed under the Open Software License version 2.0
-# http://www.opensource.org/licenses/osl-2.0.php
-# ---------------------------------------------------------------------------
+# You should have received a copy of the Artistic License with this program.
+# If not, see <http://www.opensource.org/licenses/artistic-license-2.0.php>.
+# ===========================================================================
 package MT::Plugin::SomeTags;
 
 use vars qw($VERSION);
-$VERSION = 1.0;
+$VERSION = '1.0.1';
 
 use strict;
 
@@ -25,12 +28,12 @@ use strict;
 #
 # This is the title of your license.
 #
-my $STLicenseTitle = 'Open Software License';
+my $STLicenseTitle = 'Artistic License';
 #
 #
 # This is the url to the details of your license.
 #
-my $STLicenseURL = 'http://www.opensource.org/licenses/osl-2.0.php';
+my $STLicenseURL = 'http://www.opensource.org/licenses/artistic-license-2.0.php';
 #
 #
 # This is the version number of your license.
